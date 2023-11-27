@@ -1,0 +1,39 @@
+body{
+	background-image: linear-gradient(to bottom right, rgba(47, 158, 68, 0.4), rgba(47, 158, 68, 0.4)),url(../images/hero.jpg);
+	background-size:cover;
+	height: 100vh;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.login-box{
+	display:flex;
+	justify-content: end;
+	align-items: start;
+}
+
+.form-container-bg-white{
+	justify-self: end;	
+	border:2px solid #808000;
+	font-size:12px;
+}
+
+.error-container-login{
+	text-align: start;
+	margin-bottom: 10px;
+	color:red;
+	font-size:8px
+}
+
+.form-control-group-left input{
+	margin : 0 0 14px 0;
+	width: 200px;
+}
+
+
+.form-control-group-left input[type=submit]{
+	margin : 0 auto;
+}
+
+
+
+

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+.pagination-conatiner{
+	width: 50rem;
+	margin: 0 auto;
+	display:flex;
+}
+.main-contaner
+{
+	max-width: 20rem;
+	display:flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-top: 2.5rem;
+}
+button{
+	cursor:pointer;
+	margin: 0 2rem 0 2rem;
+}
+.pag-btn-container a:not(:last-child){
+	margin-right: 5px;
+}
+.page-num-btn-ext{
+	background-color: #ddd;
+	border-radius: 2px;
+	padding: 3px 4px;
+	display: inline-block;
+	border: 0.2px solid #222;
+	margin: 0 0.5rem 0 0.5rem;
+}
+.page-num-btn-active:link,
+.page-num-btn-active:visited{
+	background-color: #00ff40;
+	color: #ddd;
+}
+.page-num-btn:link,
+.page-num-btn:visited
+{
+	color: #2b8a3e;
+	font-size: 1.1rem;
+	padding: 2px 8px;
+	transition: all 0.2s;
+	border-radius:8px;
+}
+.page-num-btn:hover,
+.page-num-btn:active
+{
+	background-color: #2b8a3e;
+	color: #ddd;
+	padding: 2px 8px;
+}
